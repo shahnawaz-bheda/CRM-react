@@ -1,25 +1,30 @@
 import logo from './logo.svg';
 import './App.css';
+import './index.css';
+import Leads from './Components/Leads';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Helpdesk from './Components/Helpdesk';
+import Detail from './Components/Detail';
+import Header from './Components/Header'
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Leads btn1="New" />} />
+          <Route path='/Helpdesk' element={<Helpdesk />} />
+          <Route path='/Details' element={<Detail />} />
+        </Routes>
+      </BrowserRouter>
+
+      {/* <Header btn1="New" /> */}
+      
+    </>
   );
 }
 
 export default App;
+

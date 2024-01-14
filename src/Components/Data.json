@@ -1,0 +1,43 @@
+[
+    {
+        "Id":1,
+        "Name":"Shahnawaz bheda",
+        "Email":"shahnawazbheda@gmail.com",
+        "phone":"9558362840",
+        "Company":"imbuesoft",
+        "Lead Status":"New  ",
+        "Lead Source":"Adverrisement", 
+        "Address":"Rajkot",
+        "Industry":"Xyz"
+    },
+    {
+        "Id":2,
+        "Name":"Shahnawaz bheda",
+        "Email":"shahnawazbheda@gmail.com",
+        "phone":"9558362840",
+        "Company":"imbuesoft",
+        "Lead Status":"Old",
+        "Lead Source":"Adverrisement",
+        "Address":"Rajkot"
+    },
+    {
+        "Id":3,
+        "Name":"Shahnawaz bheda",
+        "Email":"shahnawazbheda@gmail.com",
+        "phone":"9558362840",
+        "Company":"imbuesoft",
+        "Lead Status":"New  ",
+        "Lead Source":"Adverrisement" ,
+        "Address":"Rajkot"
+    },
+    {
+        "Id":3,
+        "Name":"Shahnawaz bheda",
+        "Email":"shahnawazbheda@gmail.com",
+        "phone":"9558362840",
+        "Company":"imbuesoft",
+        "Lead Status":"New  ",
+        "Lead Source":"Adverrisement" ,
+        "Address":"Rajkot"
+    }
+]
