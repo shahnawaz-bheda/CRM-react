@@ -282,45 +282,45 @@ export default function Leads(props, { initialValue }) {
   return (
     <>
       <div style={{ background: '#ABC0DE' }}>
-        <div className='p-5' style={{ background: '#edf2f7' }}>
+        <div className='p-0' style={{ background: '#edf2f7' }}>
           <div>
-            <nav className="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600" style={{ background: '#F2F0F1' }}>
-              <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <nav className="bg-white " style={{ background: '#F2F0F1' }}>
+              <div className="w-full flex flex-wrap items-center justify-between mx-auto p-4">
                 <a href="/" className="flex items-center">
                   <img src="my-logo-removebg-preview.png" className="w-16 mr-3" alt="Flowbite Logo" />
                 </a>
-                <div className="flex md:order-2">
-                  <button type="button" onClick={openPopup} className=" bg-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-0 text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" style={{ color: 'blue ' }}>{props.btn1}</button>
-                  <button type="button" onClick={openPopup1} className="ml-1 bg-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-0 text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" style={{ color: 'blue ' }} >Import</button>
-                  <button type="button" onClick={openPopup2} className="ml-1 bg-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-0 text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" style={{ color: 'blue ' }} >Add to campaign</button>
-                  <button type="button" onClick={openPopup3} className="ml-1 bg-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-0 text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" style={{ color: 'blue ' }} >change Status</button>
-                  <button type="button" onClick={openPopup4} className="ml-1 bg-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-0 text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" style={{ color: 'blue ' }} >Change Owner</button>
+                <div className="flex  md:order-2">
+                  <button type="button" onClick={openPopup} className=" bg-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-0 text-sm md:px-4 md:py-2 text-center md:mr-3 " style={{ color: 'blue ' }}>{props.btn1}</button>
+                  <button type="button" onClick={openPopup1} className="ml-1 bg-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-0 text-sm md:px-4 md:py-2 md:ms-0 ms-2 text-center md:mr-3  " style={{ color: 'blue ' }} >Import</button>
+                  <button type="button" onClick={openPopup2} className="ml-1 bg-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-0 text-sm md:px-4 md:py-2 md:ms-0 ms-2 text-center md:mr-3  " style={{ color: 'blue ' }} >Add to campaign</button>
+                  <button type="button" onClick={openPopup3} className="ml-1 bg-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-0 text-sm md:px-4 md:py-2 md:ms-0 ms-2 text-center md:mr-3  " style={{ color: 'blue ' }} >change Status</button>
+                  <button type="button" onClick={openPopup4} className="ml-1 bg-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-0 text-sm md:px-4 md:py-2 md:ms-0 ms-2 text-center md:mr-3 " style={{ color: 'blue ' }} >Change Owner</button>
                 </div>
               </div>
             </nav>
           </div>
         </div>
 
-        <div className=' mt-5 text-black bg-white'>
-          <nav className="bg-white border-gray-200 dark:bg-gray-900">
-            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-              <div className="hidden w-full md:block md:w-auto" id="navbar-default">
-                <ul className="font-medium flex flex-col  md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+        <div className=' md:mt-5 mt-5 text-black bg-white'>
+          <nav className="bg-white border-gray-200 ">
+            <div className="w-full flex  flex-row items-center justify-between mx-auto p-4">
+              <div className=" w-full md:block md:w-auto" id="navbar-default">
+                <ul className="font-medium flex flex-col  md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white ">
                   <li>
-                    <a href="#" className="block py-2 pl-3 pr-4 text-black  rounded md:bg-transparent  md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page" style={{ color: '#A0A0A0' }}>Title  <p className='text-black'>CEO</p></a>
+                    <a href="#" className="block py-2 pl-3 pr-4 text-black  rounded md:bg-transparent  md:p-0 " aria-current="page" style={{ color: '#A0A0A0' }}>Title  <p className='text-black'>CEO</p></a>
                   </li>
                   <li>
-                    <a href="#" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" style={{ color: '#A0A0A0' }}>Company <p className='text-black' >imbuesoft</p></a>
+                    <a href="#" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 " style={{ color: '#A0A0A0' }}>Company <p className='text-black' >imbuesoft</p></a>
 
                   </li>
                   <li>
-                    <a href="#" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" style={{ color: '#A0A0A0' }}>Phone <p style={{ color: '#6A98B6    ' }}> +91 9558362640</p></a>
+                    <a href="#" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 " style={{ color: '#A0A0A0' }}>Phone <p style={{ color: '#6A98B6    ' }}> +91 9558362640</p></a>
                   </li>
                   <li>
-                    <a href="#" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" style={{ color: '#A0A0A0' }}>Email <p style={{ color: '#6A98B6    ' }}>imbuesoft@gmail.com</p></a>
+                    <a href="#" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 " style={{ color: '#A0A0A0' }}>Email <p style={{ color: '#6A98B6    ' }}>imbuesoft@gmail.com</p></a>
                   </li>
                   <li>
-                    <a href="#" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" style={{ color: '#A0A0A0' }}>Lead Owner <p style={{ color: '#6A98B6    ' }}>Dr. Prakash Gujarati</p></a>
+                    <a href="#" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 " style={{ color: '#A0A0A0' }}>Lead Owner <p style={{ color: '#6A98B6    ' }}>Dr. Prakash Gujarati</p></a>
                   </li>
                 </ul>
               </div>
@@ -330,8 +330,8 @@ export default function Leads(props, { initialValue }) {
 
         <div className='mt-4 text-black' style={{ background: '#edf2f7' }}>
           <div className="relative overflow-x-auto" >
-            <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400" style={{ fontSize: '13px' }}>
-              <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+            <table className="w-full text-sm text-left text-gray-500" style={{ fontSize: '13px' }}>
+              <thead className="text-xs text-gray-700 uppercase bg-gray-50 ">
                 <tr>
                   <th>
                   </th>
@@ -342,7 +342,7 @@ export default function Leads(props, { initialValue }) {
                         id="nameCheckbox"
                         type="checkbox"
                         value=""
-                        className="w-4 h-4 me-2 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                        className="w-4 h-4 me-2 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 "
                       />
 
                       Name
@@ -394,16 +394,16 @@ export default function Leads(props, { initialValue }) {
                   return (
 
                     <tbody key={EachData.id}>
-                      <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                      <tr className="bg-white border-b ">
                         <th>{EachData.id}</th>
-                        <th scope="row" className="px-2 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                        <th scope="row" className="px-2 py-4 font-medium text-gray-900 whitespace-nowrap ">
 
                           <label htmlFor="nameCheckbox" className="flex items-center">
                             <input
                               id="nameCheckbox"
                               type="checkbox"
                               value=""
-                              className="toggleCheckboxes w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                              className="toggleCheckboxes w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 "
                             />
                             <button type='button' onClick={(e) => { e.preventDefault(); handleDetailsNavigation(EachData.name) }}>
                               <div className='ms-1' style={{ color: 'blue' }}>{EachData.name}</div>
@@ -445,10 +445,10 @@ export default function Leads(props, { initialValue }) {
                         </td>
 
                         <td className="py-4">
-                          <button type="submit" className="text-white bg-green-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg   sm:w-auto  py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 ms-5" style={{ width: '50px' }}>Edit</button>
+                          <button type="submit" className="text-white bg-green-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg   sm:w-auto  py-2.5 text-center  ms-5" style={{ width: '50px' }}>Edit</button>
                           <button
                             type="button"
-                            className="text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800 ms-5 mt-2"
+                            className="text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center  ms-5 mt-2"
                             onClick={() => DeleteData(EachData.id)} // Pass the item's id to the DeleteData function
                           >
                             Delete
@@ -510,7 +510,7 @@ export default function Leads(props, { initialValue }) {
       <a href='#' onClick={openPopupmsg}><img src='msg.jpg' width={'50px'} style={{ marginLeft: '95%', marginTop: '23%' }} /></a>
 
       {isOpenPopup && (
-        <div className="fixed inset-0 flex items-center justify-center z-50" >
+        <div className="fixed inset-0 flex items-center justify-center z-50 y-50" >
           <div className="bg-black bg-opacity-80 absolute inset-0" onClick={closePopup}></div>
           <div className="bg-white p-4 relative rounded-0" style={{ width: '900px', height: '400px' }}>
             <button
@@ -527,7 +527,7 @@ export default function Leads(props, { initialValue }) {
               </p>
 
               <div
-                className="p-2 text-sm text-gray-800 rounded-lg bg-gray-50 dark:bg-gray-800 dark:text-gray-300"
+                className="p-2 text-sm text-gray-800 rounded-lg bg-gray-50 "
                 role="alert"
               >
                 <span className="font-medium">Lead Information</span>
@@ -656,7 +656,7 @@ export default function Leads(props, { initialValue }) {
               </div>
 
               <div
-                className="p-2 mt-5 text-sm text-gray-800 rounded-lg bg-gray-50 dark:bg-gray-800 dark:text-gray-300"
+                className="p-2 mt-5 text-sm text-gray-800 rounded-lg bg-gray-50 "
                 role="alert"
               >
                 <span className="font-medium">Address Information</span>
@@ -671,7 +671,7 @@ export default function Leads(props, { initialValue }) {
             </div>
 
             <div
-              className="p-4  text-sm text-gray-800 rounded-0  dark:bg-gray-800 dark:text-gray-300 text-center"
+              className="p-4  text-sm text-gray-800 rounded-0   text-center"
               role="alert" style={{ width: '104%', marginLeft: '-16px', background: '#EEEDEC' }}
             >
               <button className="bg-white border border-blue  text-blue-500 font-bold py-2 px-4 rounded-0">
@@ -714,22 +714,22 @@ export default function Leads(props, { initialValue }) {
                 </div>
                 <div>
                   <div className="flex items-center justify-center">
-                    <label for="dropzone-file" className="flex flex-col items-center justify-center w-full h-40 border-2 border-gray-300 border-dashed rounded-lg cursor-pointer bg-gray-50 dark:hover:bg-bray-800 dark:bg-gray-700 hover:bg-gray-100 dark:border-gray-600 dark:hover:border-gray-500 dark:hover:bg-gray-600">
+                    <label for="dropzone-file" className="flex flex-col items-center justify-center w-full h-40 border-2 border-gray-300 border-dashed rounded-lg cursor-pointer bg-gray-50 ">
                       <div className="flex flex-col items-center justify-center pt-5 pb-6">
                         <p className='text-black'>Import from file</p>
-                        <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">Follow a guided process to upload leads </p>
-                        <p className="text-xs text-gray-500 dark:text-gray-400">using a CSV file.</p>
+                        <p className="mb-2 text-sm text-gray-500 ">Follow a guided process to upload leads </p>
+                        <p className="text-xs text-gray-500 ">using a CSV file.</p>
                       </div>
                       <input id="dropzone-file" type="file" className="hidden" />
                     </label>
                   </div>
 
                   <div className="flex items-center justify-center mt-5">
-                    <label for="dropzone-file" className="flex flex-col items-center justify-center w-full h-40 border-2 border-gray-300 border-dashed rounded-lg cursor-pointer bg-gray-50 dark:hover:bg-bray-800 dark:bg-gray-700 hover:bg-gray-100 dark:border-gray-600 dark:hover:border-gray-500 dark:hover:bg-gray-600">
+                    <label for="dropzone-file" className="flex flex-col items-center justify-center w-full h-40 border-2 border-gray-300 border-dashed rounded-lg cursor-pointer bg-gray-50 ">
                       <div className="flex flex-col items-center justify-center pt-5 pb-6">
                         <p className='text-black'>Import, Update, or Export </p>
-                        <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">use the data import Wizard, an advanced </p>
-                        <p className="text-xs text-gray-500 dark:text-gray-400">import tool that supports multiple objects,including custom objects.</p>
+                        <p className="mb-2 text-sm text-gray-500 ">use the data import Wizard, an advanced </p>
+                        <p className="text-xs text-gray-500 ">import tool that supports multiple objects,including custom objects.</p>
                       </div>
                       <input id="dropzone-file" type="file" className="hidden" />
                     </label>
@@ -765,24 +765,24 @@ export default function Leads(props, { initialValue }) {
                 <p>1 Lead Selected</p>
               </div>
               <div className="mb-6 mt-3">
-                <label for="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Campaign</label>
-                <input type="email" id="email" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="search Campaign" required />
+                <label for="email" className="block mb-2 text-sm font-medium text-gray-900 ">Campaign</label>
+                <input type="email" id="email" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " placeholder="search Campaign" required />
               </div>
 
               <div className="mb-6 mt-3">
-                <label for="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Member Status</label>
-                <input type="email" id="email" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required />
+                <label for="email" className="block mb-2 text-sm font-medium text-gray-900 ">Member Status</label>
+                <input type="email" id="email" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " required />
               </div>
 
               <p className='text-black' style={{ fontSize: '12px' }}>Update existing campaign Members?</p>
 
               <div className="flex items-center mb-4">
-                <input id="default-radio-1" type="radio" value="" name="default-radio" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
-                <label for="default-radio-1" className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Default radio</label>
+                <input id="default-radio-1" type="radio" value="" name="default-radio" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 " />
+                <label for="default-radio-1" className="ml-2 text-sm font-medium text-gray-900 ">Default radio</label>
               </div>
               <div className="flex items-center">
-                <input checked id="default-radio-2" type="radio" value="" name="default-radio" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
-                <label for="default-radio-2" className=" text-sm font-medium text-gray-900 dark:text-gray-300">Checked state</label>
+                <input checked id="default-radio-2" type="radio" value="" name="default-radio" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 " />
+                <label for="default-radio-2" className=" text-sm font-medium text-gray-900 ">Checked state</label>
               </div>
 
               <div className='mt-2 text-end
@@ -813,7 +813,7 @@ export default function Leads(props, { initialValue }) {
 
               <p className='mt-3'> 1 Lead Selected</p>
               <div className="mb-6 mt-3">
-                <label for="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Change Status</label>
+                <label for="email" className="block mb-2 text-sm font-medium text-gray-900 ">Change Status</label>
                 <select
                   name="LeadStatus"
                   className="form-control text-gray-400 w-full border border-rounded mt-3 p-2"
@@ -858,17 +858,17 @@ export default function Leads(props, { initialValue }) {
               <p className='mt-5'> You`ve selected 1 record</p>
 
               <div className="flex">
-                <span className="inline-flex items-center px-3 text-sm text-gray-900 bg-gray-200 border border-r-0 border-gray-300 rounded-l-md dark:bg-gray-600 dark:text-gray-400 dark:border-gray-600">
-                  <svg className="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                <span className="inline-flex items-center px-3 text-sm text-gray-900 bg-gray-200 border border-r-0 border-gray-300 rounded-l-md ">
+                  <svg className="w-4 h-4 text-gray-500 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M10 0a10 10 0 1 0 10 10A10.011 10.011 0 0 0 10 0Zm0 5a3 3 0 1 1 0 6 3 3 0 0 1 0-6Zm0 13a8.949 8.949 0 0 1-4.951-1.488A3.987 3.987 0 0 1 9 13h2a3.987 3.987 0 0 1 3.951 3.512A8.949 8.949 0 0 1 10 18Z" />
                   </svg>
                 </span>
-                <input type="text" id="website-admin" className="rounded-none rounded-r-lg bg-gray-50 border text-gray-900 focus:ring-blue-500 focus:border-blue-500 block flex-1 min-w-0 w-full text-sm border-gray-300 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search Users" />
+                <input type="text" id="website-admin" className="rounded-none rounded-r-lg bg-gray-50 border text-gray-900 focus:ring-blue-500 focus:border-blue-500 block flex-1 min-w-0 w-full text-sm border-gray-300 p-2.5  " placeholder="Search Users" />
               </div>
 
               <div className="mb-[0.125rem] block min-h-[1.5rem] pl-[1.5rem] mt-12">
                 <input
-                  className="relative float-left -ml-[1.5rem] mr-[6px] mt-[0.15rem] h-[1.125rem] w-[1.125rem] appearance-none rounded-[0.25rem] border-[0.125rem] border-solid border-neutral-300 outline-none before:pointer-events-none before:absolute before:h-[0.875rem] before:w-[0.875rem] before:scale-0 before:rounded-full before:bg-transparent before:opacity-0 before:shadow-[0px_0px_0px_13px_transparent] before:content-[''] checked:border-primary checked:bg-primary checked:before:opacity-[0.16] checked:after:absolute checked:after:-mt-px checked:after:ml-[0.25rem] checked:after:block checked:after:h-[0.8125rem] checked:after:w-[0.375rem] checked:after:rotate-45 checked:after:border-[0.125rem] checked:after:border-l-0 checked:after:border-t-0 checked:after:border-solid checked:after:border-white checked:after:bg-transparent checked:after:content-[''] hover:cursor-pointer hover:before:opacity-[0.04] hover:before:shadow-[0px_0px_0px_13px_rgba(0,0,0,0.6)] focus:shadow-none focus:transition-[border-color_0.2s] focus:before:scale-100 focus:before:opacity-[0.12] focus:before:shadow-[0px_0px_0px_13px_rgba(0,0,0,0.6)] focus:before:transition-[box-shadow_0.2s,transform_0.2s] focus:after:absolute focus:after:z-[1] focus:after:block focus:after:h-[0.875rem] focus:after:w-[0.875rem] focus:after:rounded-[0.125rem] focus:after:content-[''] checked:focus:before:scale-100 checked:focus:before:shadow-[0px_0px_0px_13px_#3b71ca] checked:focus:before:transition-[box-shadow_0.2s,transform_0.2s] checked:focus:after:-mt-px checked:focus:after:ml-[0.25rem] checked:focus:after:h-[0.8125rem] checked:focus:after:w-[0.375rem] checked:focus:after:rotate-45 checked:focus:after:rounded-none checked:focus:after:border-[0.125rem] checked:focus:after:border-l-0 checked:focus:after:border-t-0 checked:focus:after:border-solid checked:focus:after:border-white checked:focus:after:bg-transparent dark:border-neutral-600 dark:checked:border-primary dark:checked:bg-primary dark:focus:before:shadow-[0px_0px_0px_13px_rgba(255,255,255,0.4)] dark:checked:focus:before:shadow-[0px_0px_0px_13px_#3b71ca]"
+                  className="relative float-left -ml-[1.5rem] mr-[6px] mt-[0.15rem] h-[1.125rem] w-[1.125rem] appearance-none rounded-[0.25rem] border-[0.125rem] border-solid border-neutral-300 outline-none before:pointer-events-none before:absolute before:h-[0.875rem] before:w-[0.875rem] before:scale-0 before:rounded-full before:bg-transparent before:opacity-0 before:shadow-[0px_0px_0px_13px_transparent] before:content-[''] checked:border-primary checked:bg-primary checked:before:opacity-[0.16] checked:after:absolute checked:after:-mt-px checked:after:ml-[0.25rem] checked:after:block checked:after:h-[0.8125rem] checked:after:w-[0.375rem] checked:after:rotate-45 checked:after:border-[0.125rem] checked:after:border-l-0 checked:after:border-t-0 checked:after:border-solid checked:after:border-white checked:after:bg-transparent checked:after:content-[''] hover:cursor-pointer hover:before:opacity-[0.04] hover:before:shadow-[0px_0px_0px_13px_rgba(0,0,0,0.6)] focus:shadow-none focus:transition-[border-color_0.2s] focus:before:scale-100 focus:before:opacity-[0.12] focus:before:shadow-[0px_0px_0px_13px_rgba(0,0,0,0.6)] focus:before:transition-[box-shadow_0.2s,transform_0.2s] focus:after:absolute focus:after:z-[1] focus:after:block focus:after:h-[0.875rem] focus:after:w-[0.875rem] focus:after:rounded-[0.125rem] focus:after:content-[''] checked:focus:before:scale-100 checked:focus:before:shadow-[0px_0px_0px_13px_#3b71ca] checked:focus:before:transition-[box-shadow_0.2s,transform_0.2s] checked:focus:after:-mt-px checked:focus:after:ml-[0.25rem] checked:focus:after:h-[0.8125rem] checked:focus:after:w-[0.375rem] checked:focus:after:rotate-45 checked:focus:after:rounded-none checked:focus:after:border-[0.125rem] checked:focus:after:border-l-0 checked:focus:after:border-t-0 checked:focus:after:border-solid checked:focus:after:border-white checked:focus:after:bg-transparent "
                   type="checkbox"
                   value=""
                   id="checkboxChecked"
